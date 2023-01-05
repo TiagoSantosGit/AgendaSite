@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Agenda setor 7</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <span class="text-sm">Agenda setor 7</span>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#" class="text-sm" onclick="javascript:alert('Não possui avisos!');">Avisos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="corpoAgenda">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23039BE5&ctz=America%2FSao_Paulo&showTitle=0&showTz=0&src=NDBhNWVlYjJiNjljNDgyNThmZGJiMTkxZGZlZWJjMmVhYjBhNmNlNThiNjQ1NTY0ZGMxNTZmYTk1MzRjZTk5OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300"
+      style="border-width:0" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <footer>
+    <div class="row">
+      <div class="card">
+        <h2 class="text-sm">Versículo da bíblia</h2>
+        <p id="verso" class="text-sm">Aguarde...</p>
+        <div class="vers">
+          <p><span id="versoRef" class="text-sm"></span>
+            <img class="ico" src="bible.png" alt="Bible" />
+          </p>
+        </div>
+      </div>
+  </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
